@@ -1,0 +1,21 @@
+{
+  "name": "serverside",
+  "version": "1.0.0",
+  "description": "Task is given by SkyGini",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Manas Ranjan Jena",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  }
+}
